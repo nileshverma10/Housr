@@ -1,0 +1,22 @@
+.dropdown-container {
+    text-align: left;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 22px;
+    width: 429px;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 11px;
+}
+  
+  .dropdown-input {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+  }
+  .dropdown1{
+    width: 200px;
+    
+}

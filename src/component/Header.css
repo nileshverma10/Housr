@@ -1,0 +1,146 @@
+.header{
+    border: 2px solid white;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.logo{
+    float: left;
+    margin-top: 28px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    gap: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 231px;
+    cursor: pointer;
+}
+.call{
+    float: right;
+    margin-top: -45px;
+    margin-right: 227px;
+    font-size: 13px;
+}
+.number{
+    float: right;
+    margin-top: -31px;
+    margin-right: 225px;
+    color: blue;
+    cursor: pointer;
+
+}
+.or{
+    float: right;
+    margin-top: -36px;
+    margin-right: -123px;
+    font-size: 12px;
+}
+.request{
+    float: right;
+    margin-right: -278px;
+    margin-top: -48px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(85deg,red ,blue,cyan);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.style{
+    width: 211px;
+    height: 183px;
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+    margin-top: -6px;
+    margin-left: -31px;
+    list-style: none;
+    display: flex;
+    opacity: 0;
+    padding-top: 34px;
+}
+.ol{
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+  
+}
+/* .ol:hover{
+    background-color: rgb(238, 156, 156);
+} */
+
+.ol li{
+    display: flex;
+    flex: start;
+    /* margin-left: -15px; */
+}
+.living{
+    background-color: white;
+    width: 211px;
+    padding: 10px;
+    margin-left: -33px;
+    margin-top: -4px;
+    opacity: 1;
+}
+.living:hover{
+    background-color: brown;
+    color: white;
+    width: 211px;
+    padding: 10px;
+    margin-left: -33px;
+    margin-top: -4px;
+}
+.living2:hover{
+    background-color: brown;
+    color: white;
+    width: 211px;
+    padding: 10px;
+    margin-left: -33px;
+    margin-top: -15px;
+}
+.living3:hover{
+    background-color: brown;
+    color: white;
+    width: 211px;
+    padding: 10px;
+    margin-left: -33px;
+    margin-top: -15px;
+}
+.hr{
+    width: 211px;
+    margin-left: -34px;
+    margin-top: 1px;
+}
+.living2{
+    background-color: white;
+    width: 211px;
+    padding: 10px;
+    margin-left: -33px;
+    margin-top: -15px;
+}
+.living3{
+    background-color: white;
+    width: 211px;
+    padding: 10px;
+    margin-left: -33px;
+    margin-top: -15px;
+}
+
+.style:hover{
+    opacity: 1;
+}
+

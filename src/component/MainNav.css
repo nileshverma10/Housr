@@ -1,0 +1,192 @@
+.carousel-control-prev-icon{
+    width: 0;
+}
+.carousel-control-next-icon{
+    width: 0;
+}
+.navimg{
+    height: 600px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 0;
+}
+.mainnavbox{
+    position: absolute;
+    width: 60%;
+    height: 66px;
+    background-color: white;
+    margin-top: -480px;
+    margin-left: 414px;
+    border-radius: 34px;
+}
+
+
+.city{
+    margin-top: 10px;
+    /* padding: 7px 66px; */
+    width: 480px;
+    height: 48px;
+    margin-left: -646px;
+    border-radius: 39px;
+    padding-left: 10px;
+    outline: 1px grey;
+}
+.category{
+    margin-top: -279px;
+    /* padding: 7px 66px; */
+    width: 480px;
+    height: 47px;
+    margin-left: -34px;
+    border-radius: 39px;
+    padding-left: 10px;
+    outline: 1px grey;
+    position: absolute;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+/* input{
+    outline: 2px solid grey;
+} */
+.search{
+    padding: 9px 27px;
+    /* margin-right: -89px; */
+    margin-left: 457px;
+    border-radius: 32px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(85deg,red ,blue,cyan);
+    position: absolute;
+    margin-top: -178px;
+}
+.datalist{
+    width: 480px;
+    background-size:  480px;
+    background-color: aquamarine;
+}
+
+.search1{
+    margin-top: 54px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 47px;
+}
+.prop{
+    color: red;
+    font-size: 25px;
+    /* line-height: 1px; */
+    font-style: italic;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+
+.box1{
+    background-color: white;
+    width: 480px;
+    height: 218px;
+    margin-top: 13px;
+    margin-left: 10px;
+     display: flex;
+    /* line-height: 5px; */
+}
+
+.cityitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.guru{
+    background-color: white;
+    width: 477px;
+    /* height: 77px; */
+    margin-left: -31px;
+    padding: 11px;
+    margin-top: -9px;
+    display: flex;
+    flex: start;
+}
+.hyd{
+    background-color: white;
+    width: 477px;
+    /* height: 77px; */
+    margin-left: -31px;
+    padding: 11px;
+    margin-top: -34px;
+    display: flex;
+    flex: start 1;
+}
+.pune{
+    background-color: white;
+    width: 477px;
+    /* height: 77px; */
+    margin-left: -31px;
+    padding: 11px;
+    margin-top: -34px;
+    display: flex;
+    flex: start 1;
+}
+.bng{
+    background-color: white;
+    width: 477px;
+    /* height: 77px; */
+    margin-left: -31px;
+    padding: 11px;
+    margin-top: -34px;
+    display: flex;
+    flex: start 1;
+}
+.guru:hover{
+    background-color: #FFCEFE;
+}
+.hyd:hover{
+    background-color: #FFCEFE;
+}
+.pune:hover{
+    background-color: #FFCEFE;
+}
+.bng:hover{
+    background-color: #FFCEFE;
+}
+
+.box2{
+    background-color: white;
+    width: 480px;
+    height: 120px;
+    margin-top: -229px;
+    margin-left: 538px;
+}
+.cityitem1{
+    
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px; 
+}
+.co{
+    background-color: white;
+    width: 477px;
+    margin-left: 200px;
+    padding: 6px;
+    display: flex;
+}
+.homes{
+    background-color: white;
+    width: 477px;
+    margin-left: 200px;
+    padding: 6px;
+    display: flex;
+    margin-top: -34px
+}
+.co:hover{
+    background-color: #FFCEFE;
+}
+.homes:hover{
+    background-color: #FFCEFE;
+}
+.dropdown1{
+    width: 200px;
+    
+}
+
