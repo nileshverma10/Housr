@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
-import Dropdown from "./Dropdown";
-import "./MainNav.css";
+import React, { useState } from 'react'
+import Carousel from 'react-bootstrap/Carousel'
+import Dropdown from './Dropdown'
+import './MainNav.css'
 
 function MainNav(props) {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0)
   const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+    setIndex(selectedIndex)
+  }
 
   return (
     <>
@@ -51,8 +51,6 @@ function MainNav(props) {
         </Carousel.Item>
       </Carousel>
       <div className="mainnavbox">
-        <Dropdown />
-        <Dropdown className="dropdown1" />
         <button className="search">Search</button>
       </div>
       <div>
@@ -60,10 +58,10 @@ function MainNav(props) {
       </div>
       <h2 className="prop">Housr Properties</h2>
     </>
-  );
+  )
 }
 
-export default MainNav;
+export default MainNav
 
 {
   /* <input

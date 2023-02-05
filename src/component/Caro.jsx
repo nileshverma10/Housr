@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./Caro.css";
+import React, { Component } from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import './Caro.css'
 
 export default class Caro extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class Caro extends Component {
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
-    };
+    }
     return (
       <div>
         <Slider {...settings}>
@@ -288,6 +288,6 @@ export default class Caro extends Component {
           </div>
         </Slider>
       </div>
-    );
+    )
   }
 }
