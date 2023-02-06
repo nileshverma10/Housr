@@ -1,0 +1,39 @@
+.sub {
+    /* border: 2px solid red; */
+    width: 1670px;
+    position: absolute;
+    height: 160px;
+    border-radius: 27px;
+    background-color: #5D3891;
+    margin-left: 120px;
+    margin-top: -46px;
+}
+.email{
+    width: 85px;
+    float: left;
+    margin-top: 29px;
+    margin-left: 28px;
+}
+.avail {
+    color: white;
+    font-size: 32px;
+    margin-top: 38px;
+    margin-right: 841px;
+}
+.emailid {
+    padding: 23px;
+    width: 506px;
+    margin-top: -42px;
+    position: absolute;
+    margin-left: -66px;
+}
+.subbtn{
+
+    position: absolute;
+    margin-left: 603px;
+    padding: 13px 35px;
+    margin-top: -30px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(85deg,red ,blue,cyan);
+}

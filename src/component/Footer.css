@@ -1,0 +1,91 @@
+.ft{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 700px;
+    display: flex;
+}
+.ftb1 {
+    /* border: 2px solid red; */
+    width: 393px;
+    height: 512px;
+    margin-left: 118px;
+}
+.rooms {
+    margin-top: 40px;
+    margin-left: -177px;
+}
+
+.tulip{
+    display: flex;
+    margin-top: -19px;
+    margin-left: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.ftb2 {
+    /* border: 2px solid red; */
+    width: 409px;
+    height: 512px;
+    margin-left: 251px;
+}
+.homes1 {
+    margin-top: 40px;
+    margin-left: -69px;
+}
+.rent {
+    margin-top: 21px;
+    margin-left: -221px;
+}
+.bhk{
+    margin-top: 21px;
+    margin-left: -192px; 
+}
+.rent2{
+    margin-top: 38px;
+    margin-left: -221px;
+}
+.rent3{
+    margin-top: 21px;
+    margin-left: -170px;
+}
+.rent4{
+    margin-top: 21px;
+    margin-left: -179px;
+}
+.fthr{
+    color: white;
+    position: absolute;
+    width: 10px;
+}
+.copyright {
+    position: absolute;
+    margin-top: 618px;
+    margin-left: 210px;
+}
+.follow {
+    text-align: center;
+    position: absolute;
+    margin-top: 618px;
+    margin-left: 987px;
+}
+.face {
+    position: absolute;
+    margin-top: 653px;
+    margin-left: 990px;
+}
+.insta {
+    position: absolute;
+    margin-top: 653px;
+    margin-left: 1011px;
+}
+.twit{
+    position: absolute;
+    margin-top: 653px;
+    margin-left: 1035px;
+}
+.link{
+    position: absolute;
+    margin-top: 653px;
+    margin-left: 1061px; 
+}

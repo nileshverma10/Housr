@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import './CarouselCard.css'
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./CarouselCard.css";
 
 export default class Resizable extends Component {
   state = {
     display: true,
     width: 600,
-  }
+  };
   render() {
     const settings = {
       dots: true,
@@ -16,48 +16,10 @@ export default class Resizable extends Component {
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
-    }
+    };
     return (
       <div>
-        <h2> Resizable Collapsible </h2>
-        <button
-          className="button"
-          onClick={() =>
-            this.setState({
-              width: this.state.width + 100,
-            })
-          }
-        >
-          increase
-        </button>
-        <button
-          className="button"
-          onClick={() =>
-            this.setState({
-              width: this.state.width - 100,
-            })
-          }
-        >
-          {' '}
-          decrease{' '}
-        </button>
-        <button
-          className="button"
-          onClick={() =>
-            this.setState({
-              display: !this.state.display,
-            })
-          }
-        >
-          {' '}
-          toggle{' '}
-        </button>
-        <div
-          style={{
-            width: this.state.width + 'px',
-            display: this.state.display ? 'block' : 'none',
-          }}
-        >
+        <div>
           <Slider {...settings}>
             <div>
               <h3 className="img1h">
@@ -241,6 +203,6 @@ export default class Resizable extends Component {
           </Slider>
         </div>
       </div>
-    )
+    );
   }
 }

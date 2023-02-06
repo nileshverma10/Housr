@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.966524in" height="0.459165in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 250 119"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2198636479504">
+   <g id="_2416512789520">
+    <g id="_1658367718992">
+     <g id="_1549737187024">
+      <line fill="none" stroke="#7F3F97" stroke-width="5.35036" x1="3" y1="0" x2="3" y2= "119" />
+      <line fill="none" stroke="#7F3F97" stroke-width="5.35036" x1="247" y1="56" x2="247" y2= "119" />
+      <line fill="none" stroke="#7F3F97" stroke-width="5.35036" x1="3" y1="92" x2="247" y2= "92" />
+      <line fill="none" stroke="#7F3F97" stroke-width="5.35036" x1="3" y1="70" x2="247" y2= "70" />
+      <path fill="none" stroke="#7F3F97" stroke-width="5.35036" d="M247 70l-175 0 0 -48 161 0c11,0 14,7 14,16l0 32 0 0z"/>
+      <circle fill="none" stroke="#7F3F97" stroke-width="5.35036" cx="43" cy="38" r="18"/>
+      <polyline fill="none" stroke="#7F3F97" stroke-width="5.35036" points="14,70 14,15 3,15 "/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
