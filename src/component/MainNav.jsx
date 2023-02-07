@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
-import Carousel from 'react-bootstrap/Carousel'
-import Dropdown from './Dropdown'
-import './MainNav.css'
+import React, { useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
+import { Dropdown } from "./Dropdown";
+import "./MainNav.css";
 
 function MainNav(props) {
-  const [index, setIndex] = useState(0)
+  const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex)
-  }
+    setIndex(selectedIndex);
+  };
 
   return (
     <>
@@ -51,6 +51,7 @@ function MainNav(props) {
         </Carousel.Item>
       </Carousel>
       <div className="mainnavbox">
+        <Dropdown />
         <button className="search">Search</button>
       </div>
       <div>
@@ -58,42 +59,7 @@ function MainNav(props) {
       </div>
       <h2 className="prop">Housr Properties</h2>
     </>
-  )
+  );
 }
 
-export default MainNav
-
-{
-  /* <input
-className="city"
-type="text"
-placeholder="Search by City"
-list="city"
-onChange={visible}
-/>
-<div className="box1">
-<ul className="cityitem">
-  <li className="guru">Gurugram</li>
-  <li className="hyd">Hyderabad</li>
-
-  <li className="pune">Pune</li>
-
-  <li className="bng">Banglore</li>
-</ul>
-</div> */
-}
-
-// <input
-//           className="category"
-//           type="text"
-//           placeholder="Search by Category"
-//           onChange={invisible}
-//         />
-//         <div className="box2">
-//           <ul className="cityitem1">
-//             <li className="co">Housr Coliving</li>
-//             <li className="homes">Housr Homes</li>
-
-//             <li className="homes">StayAbode By Housr</li>
-//           </ul>
-//         </div>
+export default MainNav;

@@ -7,7 +7,7 @@ export const Hero = () => {
         <h1 className="heroh1">Housr Way</h1>
         <h3 className="heroh3">Make it happen, with Housr</h3>
         <div className="herovideo">
-          <video className="video">
+          <video className="video" controls autoplay>
             <source src="/image/houservideo.mp4" type="video/mp4" />
           </video>
           <div className="herobox1">
@@ -32,7 +32,10 @@ export const Hero = () => {
         </div>
       </div>
       <h1 className="heroh11">Housr Amenities</h1>
-      <h4 className="maid"> No cook, no maid, no chores. Let Housr simplify your life!</h4>
+      <h4 className="maid">
+        {" "}
+        No cook, no maid, no chores. Let Housr simplify your life!
+      </h4>
     </>
   );
 };

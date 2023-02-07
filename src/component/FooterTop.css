@@ -1,0 +1,33 @@
+.ftdiv1{
+    width: 100px;
+    height: 200px;
+    /* background-color: red; */
+}
+
+.ftnew{
+    color: grey;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.ftnew:hover{
+    color: black;
+    cursor: pointer;
+}
+.ftnew2{
+    color: grey;
+    cursor: pointer;
+    line-height: 24px;
+}
+.ftnew2:hover{
+    color: black;
+    cursor: pointer;
+}
+.slick-slider{
+  margin-top: 100px;
+}
+
+.ftbox1{
+    /* background-color: red; */
+    margin-left: 100px;
+    margin-right: 100px;
+}

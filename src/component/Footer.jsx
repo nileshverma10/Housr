@@ -83,7 +83,9 @@ export const Footer = () => {
           <i class="fa-sharp fa-solid fa-angle-right item"></i>
           <p className="tulip">Room for rent in Marathahalli</p>
         </div>
-        <hr className="fthr" />
+        {/* <div>
+          <i class="fa-sharp fa-solid fa-horizontal-rule fthr"></i>
+        </div> */}
         <h5 className="copyright">
           Copyright © 2022. All rights reserved to Housr
         </h5>

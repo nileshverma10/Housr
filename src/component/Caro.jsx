@@ -1,20 +1,24 @@
-import React, { Component } from 'react'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import './Caro.css'
+import React, { Component } from "react";
+import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "./Caro.css";
 
 export default class Caro extends Component {
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
-      speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
-    }
+      autoplay: true,
+      speed: 500,
+    };
     return (
-      <div>
+      <div className="ccbox1">
+        {/* <div className="arrowleft">
+          <i class="fa-sharp fa-solid fa-arrow-left ccarrow"></i>
+        </div> */}
         <Slider {...settings}>
           <div>
             <h3 className="img1h">
@@ -47,8 +51,8 @@ export default class Caro extends Component {
             </h3>
           </div>
           <div>
-            <h3 className="img2h">
-              <img className="img2" src="image/cd2.webp" alt="" />
+            <h3 className="img1h">
+              <img className="img1" src="image/cd2.webp" alt="" />
               <h5 className="phase">Housr Luxary homes Phase-IV</h5>
               <h5 className="gurgaon">
                 <i class="fa-solid fa-location-pin location"></i>Sector
@@ -77,8 +81,8 @@ export default class Caro extends Component {
             </h3>
           </div>
           <div>
-            <h3 className="img3h">
-              <img className="img3" src="image/cd3.webp" alt="" />
+            <h3 className="img1h">
+              <img className="img1" src="image/cd3.webp" alt="" />
               <h5 className="phase">Housr Luxary homes Phase-IV</h5>
               <h5 className="gurgaon">
                 <i class="fa-solid fa-location-pin location"></i>Sector
@@ -137,8 +141,8 @@ export default class Caro extends Component {
             </h3>
           </div>
           <div>
-            <h3 className="img2h">
-              <img className="img2" src="image/c1.jpg" alt="" />
+            <h3 className="img1h">
+              <img className="img1" src="image/c1.jpg" alt="" />
               <h5 className="phase">Housr Luxary homes Phase-IV</h5>
               <h5 className="gurgaon">
                 <i class="fa-solid fa-location-pin location"></i>Sector
@@ -167,8 +171,8 @@ export default class Caro extends Component {
             </h3>
           </div>
           <div>
-            <h3 className="img3h">
-              <img className="img3" src="image/c2.jpg" alt="" />
+            <h3 className="img1h">
+              <img className="img1" src="image/c2.jpg" alt="" />
               <h5 className="phase">Housr Luxary homes Phase-IV</h5>
               <h5 className="gurgaon">
                 <i class="fa-solid fa-location-pin location"></i>Sector
@@ -227,8 +231,8 @@ export default class Caro extends Component {
             </h3>
           </div>
           <div>
-            <h3 className="img2h">
-              <img className="img2" src="image/cd1.webp" alt="" />
+            <h3 className="img1h">
+              <img className="img1" src="image/cd1.webp" alt="" />
               <h5 className="phase">Housr Luxary homes Phase-IV</h5>
               <h5 className="gurgaon">
                 <i class="fa-solid fa-location-pin location"></i>Sector
@@ -257,8 +261,8 @@ export default class Caro extends Component {
             </h3>
           </div>
           <div>
-            <h3 className="img3h">
-              <img className="img3" src="image/cd2.webp" alt="" />
+            <h3 className="img1h">
+              <img className="img1" src="image/cd2.webp" alt="" />
               <h5 className="phase">Housr Luxary homes Phase-IV</h5>
               <h5 className="gurgaon">
                 <i class="fa-solid fa-location-pin location"></i>Sector
@@ -287,7 +291,10 @@ export default class Caro extends Component {
             </h3>
           </div>
         </Slider>
+        {/* <div className="arrowright1">
+          <i class="fa-sharp fa-solid fa-arrow-right ccarrowright"></i>
+        </div> */}
       </div>
-    )
+    );
   }
 }

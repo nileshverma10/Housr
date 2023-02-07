@@ -1,46 +1,42 @@
+.ccbox1{
+    /* background-color: red; */
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: -70px;
+}
+
+.slick-prev {
+    background-color: darkgray;
+    width: 50px;
+    height: 50px;
+    margin-left: -34px;
+    border-radius: 31px;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: #BFACE2;
+    outline: none;
+    background: #BFACE2;
+}
+.slick-next {
+    background-color: darkgray;
+    width: 50px;
+    height: 50px;
+    margin-right: -36px;
+    border-radius: 31px;
+}
+
 .img1h {
-    /* background-color: red; */
     height: 459px;
-    margin-left: 125px;
-    width: 535px;
+    width: 540px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .img1 {
-    width: 535px;
-    height: 240px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-.img2h {
-    /* background-color: red; */
-    height: 459px;
-    margin-left: 52px;
-    width: 535px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.img2 {
-    width: 535px;
-    height: 240px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-.img3h {
-    /* background-color: red; */
-    height: 459px;
-    margin-left: -25px;
-    width: 535px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.img3 {
     width: 535px;
     height: 240px;
     border-top-left-radius: 15px;
@@ -145,13 +141,44 @@
     cursor: pointer;
     color: grey;
 }
-.slick-prev
-{
-    left: 25px;
-    background-color: blue;
+
+.arrowleft {
+    background-color: darkgray;
+    width: 50px;
+    height: 50px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 209px;
+    margin-left: -59px;
+    z-index: 99;
 }
-.slick-next
-{
-    right: 25px;
-    background-color: blue;
+
+.ccarrow {
+    font-size: 25px;
+}
+.arrowleft:hover{
+    background-color: #BFACE2;
+    color: white;
+}
+.arrowright {
+    background-color: darkgray;
+    width: 50px;
+    height: 50px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -415px;
+    margin-left: 1695px;
+}
+.ccarrowright{
+    font-size: 25px;
+}
+.arrowright:hover{
+   background-color: #BFACE2;
+   color: white;
 }
