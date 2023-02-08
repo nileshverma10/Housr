@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './component/Header'
+// import Header from './component/Header'
 import MainNav from './component/MainNav'
 import CarouselCard1 from './component/CarouselCard1'
 import { Hero } from './component/Hero'
@@ -10,12 +10,14 @@ import { MiniBox } from './component/MiniBox'
 import { Footer } from './component/Footer'
 import   FooterTop from './component/FooterTop'
 import Caro from './component/Caro'
+import Navbar1 from './component/Navbar1'
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <Navbar1/>
       <MainNav />
       <CarouselCard1/>
       <Caro/>

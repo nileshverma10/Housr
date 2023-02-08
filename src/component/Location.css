@@ -1,0 +1,49 @@
+.rs-dropdown-toggle, .rs-dropdown-toggle.rs-btn {
+    cursor: pointer;
+    display: inline-block;
+    padding-right: 32px;
+    position: relative;
+    z-index: 5;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 2px;
+    color: black;
+}
+.rs-btn{
+       padding: 0px 0px;
+}
+.rs-btn:hover{
+    background-color: none;
+}
+.rs-dropdown-toggle, .rs-dropdown-toggle.rs-btn :hover{
+    background: transparent;
+}
+.rs-dropdown-menu{
+    width: 200px;
+}
+.rs-dropdown-menu:hover {
+   background-color: white;
+   color: black;
+   
+}
+.rs-dropdown-item {
+    color: black;
+    font-weight: 500;
+    padding: 12px ;
+    text-decoration: none;
+}
+.rs-dropdown-item:hover{
+    background-color: #D9ACF5;
+    color: white; 
+    
+}
+.rs-dropdown .rs-btn>.rs-dropdown-toggle-caret {
+    margin-left: 4px;
+    margin-top: -7px;
+}
+
+.hr{
+    width: 211px;
+    margin-left: -34px;
+    margin-top: 1px;
+}
