@@ -185,8 +185,7 @@ input:focus, textarea:focus, select:focus{
 .homes:hover{
     background-color: #FFCEFE;
 }
-.dropdown1{
-    width: 200px;
-    
-}
 
+.drop2{
+    margin-left: 100px;
+}

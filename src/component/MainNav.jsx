@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import { Dropdown } from "./Dropdown";
+import Dropdown from "./Dropdown";
 import "./MainNav.css";
 
 function MainNav(props) {
@@ -52,6 +52,7 @@ function MainNav(props) {
       </Carousel>
       <div className="mainnavbox">
         <Dropdown />
+        {/* <Dropdown className="drop2" /> */}
         <button className="search">Search</button>
       </div>
       <div>
