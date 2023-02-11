@@ -48,3 +48,10 @@ gap: 20px;
 .home:hover{
     color: black;
 }
+
+
+@media screen and  ( max-width: 1500px){
+    .logoimg{
+        margin-left :16px;
+    }
+}

@@ -1,14 +1,14 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import Category from "./Category";
-import Location from "./Location";
-import "./Navbar1.css";
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import Category from './Category'
+import Location from './Location'
+import './Navbar1.css'
 
 function Navbar1() {
   return (
     <Navbar className="navbar" bg="light" expand="lg">
-      <Container>
+      <Container lg={12} md={10}>
         <Navbar.Brand href="#home">
           <img className="logoimg" src="./image/logo-housr.webp" alt="" />
         </Navbar.Brand>
@@ -40,7 +40,7 @@ function Navbar1() {
         <button className="request">REQUEST CALL</button>
       </Container>
     </Navbar>
-  );
+  )
 }
 
-export default Navbar1;
+export default Navbar1
