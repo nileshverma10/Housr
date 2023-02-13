@@ -11,7 +11,7 @@ function MainNav(props) {
 
   return (
     <>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel className="width" activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
             className="d-block w-100 navimg"

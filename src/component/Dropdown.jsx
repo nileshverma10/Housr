@@ -3,22 +3,30 @@ import Select from "react-select";
 import "./Dropdown.css";
 
 const options = [
-  { value: "chocolate", label: "Chocolate" },
-  { value: "strawberry", label: "Strawberry" },
-  { value: "vanilla", label: "Vanilla" },
+  { value: "Gurugram", label: "Gurugram" },
+  { value: "Hyderabad", label: "Hyderabad" },
+  { value: "Pune", label: "Pune" },
+  { value: "Banglore", label: "Banglore" },
 ];
 
 export default function Dropdown() {
   const [selectedOption, setSelectedOption] = useState(null);
 
   return (
-    <div className="App">
-      <Select
-        defaultValue={selectedOption}
-        onChange={setSelectedOption}
-        options={options}
-      />
-    </div>
+    <>
+      <div className="dropdown">
+        <Select
+          defaultValue={selectedOption}
+          onChange={setSelectedOption}
+          options={options}
+        />
+        <Select
+          defaultValue={selectedOption}
+          onChange={setSelectedOption}
+          options={options}
+        />
+      </div>
+    </>
   );
 }
 

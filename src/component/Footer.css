@@ -85,3 +85,101 @@
     margin-top: 653px;
     margin-left: 1061px; 
 }
+
+@media screen and (max-width:480px){
+    .ft{
+        width: 100%;
+        background-color: black;
+        color: white;
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+    }
+    .ftb1 {
+        /* border: 2px solid red; */
+        width: 393px;
+        height: 512px;
+        margin-left: 81px;
+        margin-top: -19px;
+    }
+    .rooms {
+        margin-top: 40px;
+        margin-left: -177px;
+    }
+    
+    .tulip {
+        display: flex;
+        margin-top: -19px;
+        margin-left: 20px;
+        font-size: 11px;
+        cursor: pointer;
+        line-height: 1;
+    }
+    .ftb2 {
+        /* border: 2px solid red; */
+        width: 370px;
+        height: 386px;
+        margin-left: 17px;
+        margin-top: -90px;
+        background-color: green;
+    }
+    .item{
+        margin-left: 6px;
+    }
+    .homes1 {
+        margin-top: 8px;
+        margin-left: -16px;
+    }
+    .rent {
+        margin-top: 21px;
+        margin-left: -164px;
+    }
+    .bhk {
+        margin-top: 21px;
+        margin-left: -134px;
+    }
+    .rent2 {
+        margin-top: 38px;
+        margin-left: -172px;
+    }
+    .rent3{
+        margin-top: 21px;
+        margin-left: -117px;
+    }
+    .rent4{
+        margin-top: 21px;
+        margin-left: -124px;
+    }
+    
+    .copyright {
+        position: absolute;
+        margin-top: 618px;
+        margin-left: 210px;
+    }
+    .follow {
+        text-align: center;
+        position: absolute;
+        margin-top: 618px;
+        margin-left: 987px;
+    }
+    .face {
+        position: absolute;
+        margin-top: 653px;
+        margin-left: 990px;
+    }
+    .insta {
+        position: absolute;
+        margin-top: 653px;
+        margin-left: 1011px;
+    }
+    .twit{
+        position: absolute;
+        margin-top: 653px;
+        margin-left: 1035px;
+    }
+    .link{
+        position: absolute;
+        margin-top: 653px;
+        margin-left: 1061px; 
+    }
+}
