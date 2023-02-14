@@ -35,7 +35,7 @@ export const Hero2 = () => {
           <div className="hb11">
             <img className="a4" src="image/a4.svg" alt="" />
             <h3 className="tier">3-Tier Security</h3>
-            <h6 className="well">
+            <h6 className="well1">
               Tech-enabled locks, 24/7 CCTV surveillance & security guards on{" "}
               <br />
               duty around the lock
@@ -68,7 +68,7 @@ export const Hero2 = () => {
               desks along with premium quality furniture & fitments
             </h6>
             <div className="hb12">
-              <img className="a2" src="image/a8.svg" alt="" />
+              <img className="a21" src="image/a8.svg" alt="" />
               <h3 className="regular">
                 Regular Professional-Grade Housekeeping
               </h3>

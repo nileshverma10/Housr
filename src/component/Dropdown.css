@@ -7,31 +7,42 @@
  margin-top: 5px;
  padding: 7px;
  justify-content: space-around !important;
+ 
 }
 
 .css-b62m3t-container{
   border-radius: 50px !important;
   width: 400px !important;
-  justify-content: space-between !important;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .dropdown{
-  display: flex;
-  align-items: center;
+    margin-left: 11px;
 }
 
 
 @media screen and  ( max-width: 480px){
   .css-13cymwt-control{
-    width: 136px !important;
+    width: 160px !important;
     height: 20px;
     margin-top: 5px;
-    margin-left: 11px;
-    justify-content: space-between !important;
   }
   .css-b62m3t-container {
-    width: 139px !important;
+    width: 160px !important;
     height: 20px;
-    margin-left: 1px;
 }
+}
+
+@media screen and  ( max-width: 820px){
+  .css-13cymwt-control {
+    width: 251px !important;
+    height: 20px;
+    margin-top: 5px;
+  
+}
+  .css-b62m3t-container {
+    width: 251px !important;
+    height: 20px;
+  
+}
+
 }

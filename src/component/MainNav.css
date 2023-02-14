@@ -18,6 +18,7 @@
     margin-top: -480px;
     margin-left: 425px;
     border-radius: 34px;
+    display: flex;
 }
 
 
@@ -27,14 +28,14 @@ input:focus, textarea:focus, select:focus{
 
 .search {
     padding: 9px 27px;
-    margin-left: 381px;
+    margin-left: 874px;
     border-radius: 32px;
     border: none;
     color: white;
     font-weight: 500;
     background-image: linear-gradient(85deg,red ,blue,cyan);
     position: absolute;
-    margin-top: -48px;
+    margin-top: 8px;
 }
 .search1{
     margin-top: 54px;
@@ -58,23 +59,21 @@ input:focus, textarea:focus, select:focus{
     position: absolute;
     width: 96%;
     height: 49px;
-    /* background-color: red; */
     margin-top: -480px;
     margin-left: 10px;
     border-radius: 34px;
   }
-  .search{
+  .search {
     padding: 5px 9px;
-    margin-left: 112px;
+    margin-left: 379px;
     border-radius: 32px;
     border: none;
     color: white;
     font-weight: 500;
     background-image: linear-gradient(85deg,red ,blue,cyan);
     position: absolute;
-    margin-top: -13px;
-}
-    
+    margin-top: 6px;
+}    
 .search1 {
     margin-top: 8px;
     font-style: italic;
@@ -88,3 +87,49 @@ input:focus, textarea:focus, select:focus{
 }
 
 }
+
+@media screen and  ( max-width: 820px){
+    .width{
+     width: 100%;
+    }
+ 
+    .mainnavbox {
+        position: absolute;
+        width: 77%;
+        height: 49px;
+        margin-top: -304px;
+        margin-left: 91px;
+        border-radius: 34px;
+        gap: 50px;
+    }
+    .search {
+        padding: 7px 25px;
+        margin-left: 529px;
+        border-radius: 32px;
+        border: none;
+        color: white;
+        font-weight: 500;
+        background-image: linear-gradient(85deg,red ,blue,cyan);
+        position: absolute;
+        margin-top: 5px;
+    }
+     
+ .search1 {
+     margin-top: 8px;
+     font-style: italic;
+     font-weight: bolder;
+     font-size: 29px;
+ }
+ .prop{
+     color: red;
+     font-size: 14px;
+     font-style: italic;
+ }
+ .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 412px;
+}
+ 
+ } 
