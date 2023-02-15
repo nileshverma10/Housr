@@ -1,0 +1,36 @@
+.abttext{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-right: 900px;
+    margin-top: 100px;
+}
+.abtbox1 {
+    /* border: 2px solid red; */
+    width: 59%;
+    height: 200px;
+    margin-left: 693px;
+    margin-top: -75px;
+}
+.abtimg{
+    width: 100%;
+}
+@media screen and (max-width:820px) {
+    .abttext {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-right: 610px;
+        margin-top: 92px;
+    }
+    .abtbox1 {
+        /* border: 2px solid red; */
+        width: 59%;
+        height: 200px;
+        margin-left: 272px;
+        margin-top: -87px;
+        font-size: 11px;
+    }
+}

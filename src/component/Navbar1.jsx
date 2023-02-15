@@ -1,24 +1,22 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import Category from './Category'
-// import Location from './Location'
 import "./Navbar1.css";
 
 function Navbar1() {
   return (
     <Navbar bg="red navbar" expand="lg">
       <Container lg={12} md={10}>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img className="logoimg" src="./image/logo-housr.webp" alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto items">
-            <Nav.Link className="home" href="#home">
+            <Nav.Link className="home" href="/">
               Home
             </Nav.Link>
-            <Nav.Link className="home" href="#link">
+            <Nav.Link className="home" href="/about">
               About Us
             </Nav.Link>
             <Nav.Link className="home" href="#link">
@@ -31,7 +29,7 @@ function Navbar1() {
               Location
               <i class="fa-sharp fa-solid fa-angle-down"></i>
             </Nav.Link>
-            <Nav.Link className="home" href="#link">
+            <Nav.Link className="home" href="/blog">
               Blogs
             </Nav.Link>
           </Nav>
