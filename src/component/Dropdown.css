@@ -20,17 +20,6 @@
 }
 
 
-@media screen and  ( max-width: 480px){
-  .css-13cymwt-control{
-    width: 160px !important;
-    height: 20px;
-    margin-top: 5px;
-  }
-  .css-b62m3t-container {
-    width: 160px !important;
-    height: 20px;
-}
-}
 
 @media screen and  ( max-width: 820px){
   .css-13cymwt-control {
@@ -45,4 +34,16 @@
   
 }
 
+}
+
+@media screen and  ( max-width: 480px){
+  .css-13cymwt-control{
+    width: 160px !important;
+    height: 20px;
+    margin-top: 5px;
+  }
+  .css-b62m3t-container {
+    width: 160px !important;
+    height: 20px;
+}
 }
