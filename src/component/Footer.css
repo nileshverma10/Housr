@@ -223,7 +223,7 @@
         /* border: 2px solid red; */
         width: 370px;
         height: 386px;
-        margin-left: 17px;
+        margin-left: 77px;
         margin-top: -90px;
         /* background-color: green; */
     }
@@ -258,37 +258,37 @@
     .copyright {
         position: absolute;
         margin-top: 1060px;
-        margin-left: 5px;
+        margin-left: 47px;
         font-size: 18px;
     }
     .follow {
         text-align: center;
         position: absolute;
         margin-top: 1099px;
-        margin-left: 151px;
+        margin-left: 188px;
     }
     .face {
         position: absolute;
         margin-top: 1138px;
-        margin-left: 111px;
+        margin-left: 164px;
         font-size: 25px;
     }
     .insta {
         position: absolute;
         margin-top: 1138px;
-        margin-left: 141px;
+        margin-left: 190px;
         font-size: 25px;
     }
     .twit{
         position: absolute;
         margin-top: 1138px;
-        margin-left: 182px;
+        margin-left: 228px;
         font-size: 25px;
     }
     .link{
         position: absolute;
         margin-top: 1138px;
-        margin-left: 235px;
+        margin-left: 273px;
         font-size: 25px;
     }
 }

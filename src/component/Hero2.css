@@ -334,7 +334,7 @@
         margin-top: 9px;
     }
     .regular {
-        margin-top: -43px;
+        margin-top: -58px;
         margin-left: 61px;
         font-size: 16px;
         font-weight: 700;
@@ -389,7 +389,22 @@
         margin-top: 1px;
         font-size: 16px;
         font-weight: 700;
-        margin-right: 223px;
+        margin-right: 162px;
         /* margin-left: 10px; */
+    }
+    .well1 {
+        /* margin-left: 21px; */
+        margin-top: -5px;
+        font-size: 11px;
+        color: grey;
+        margin-right: -36px;
+    }
+    .a21 {
+        font-size: 40px;
+        width: 49px;
+        height: 78px;
+        margin-left: -312px;
+        color: #D9ACF5;
+        /* margin-top: 5px; */
     }
 }

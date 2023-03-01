@@ -104,16 +104,17 @@ input:focus, textarea:focus, select:focus{
     }
  
     .mainnavbox {
-     position: absolute;
-     width: 96%;
-     height: 49px;
-     margin-top: -480px;
-     margin-left: 10px;
-     border-radius: 34px;
-   }
+        position: absolute;
+        width: 76%;
+        height: 49px;
+        margin-top: -305px;
+        margin-left: 68px;
+        border-radius: 34px;
+        /* background-color: blue; */
+    }
    .search {
      padding: 5px 9px;
-     margin-left: 379px;
+     margin-left: 291px;
      border-radius: 32px;
      border: none;
      color: white;

@@ -38,12 +38,18 @@
 
 @media screen and  ( max-width: 480px){
   .css-13cymwt-control{
-    width: 160px !important;
-    height: 20px;
-    margin-top: 5px;
+    height: 44px !important;
+    /* background-color: green; */
+    width: 118px !important;
+    position: absolute !important;
+    margin-top: 1px !important;
   }
   .css-b62m3t-container {
-    width: 160px !important;
-    height: 20px;
+    height: 44px !important;
+    /* background-color: red; */
+    width: 118px !important;
+    position: absolute !important;
+    margin-top: 1px !important;
 }
+
 }
