@@ -36,8 +36,8 @@ export const Hero2 = () => {
             <img className="a4" src="image/a4.svg" alt="" />
             <h3 className="tier">3-Tier Security</h3>
             <h6 className="well1">
-              Tech-enabled locks, 24/7 CCTV surveillance & security guards on{" "}
-              <br />
+              Tech-enabled locks, 24/7 CCTV surveillance & security
+              {/* <br /> */}
               duty around the lock
             </h6>
             <div className="hb12">
@@ -65,14 +65,14 @@ export const Hero2 = () => {
             <h3 className="super">Super-Speed Internet</h3>
             <h6 className="well">
               Well-ventilated rooms with balconies. Work-from-home compatible
-              desks along with premium quality furniture & fitments
+              desks along with premium .
             </h6>
             <div className="hb12">
               <img className="a21" src="image/a8.svg" alt="" />
-              <h3 className="regular">
+              <h3 className="regular qyality1">
                 Regular Professional-Grade Housekeeping
               </h3>
-              <h6 className="quality">
+              <h6 className="quality ">
                 Quality-assured, no-contact housekeeping by professionally
                 trained and skilled staff
               </h6>

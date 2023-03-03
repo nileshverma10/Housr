@@ -136,3 +136,26 @@ input:focus, textarea:focus, select:focus{
  }
  
  }
+
+ @media only screen and  ( max-width: 390px){
+    .mainnavbox {
+        position: absolute;
+        width: 92%;
+        height: 49px;
+        margin-top: -305px;
+        margin-left: 15px;
+        border-radius: 34px;
+        /* background-color: blue; */
+    }
+    .search {
+        padding: 7px 15px;
+        margin-left: 255px;
+        border-radius: 32px;
+        border: none;
+        color: white;
+        font-weight: 500;
+        background-image: linear-gradient(85deg,red ,blue,cyan);
+        position: absolute;
+        margin-top: 6px;
+    }
+ }

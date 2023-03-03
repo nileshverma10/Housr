@@ -53,3 +53,24 @@
 }
 
 }
+
+@media screen and  ( max-width: 390px){
+  .css-13cymwt-control{
+    height: 44px !important;
+    /* background-color: green; */
+    width: 118px !important;
+    position: absolute !important;
+    margin-top: 1px !important;
+  }
+  .css-b62m3t-container {
+    height: 44px !important;
+    /* background-color: red; */
+    width: 118px !important;
+    position: absolute !important;
+    margin-top: 1px !important;
+}
+    
+    .dropdown {
+      margin-left: 3px;
+  }
+}

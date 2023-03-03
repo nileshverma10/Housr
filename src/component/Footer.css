@@ -292,3 +292,49 @@
         font-size: 25px;
     }
 }
+@media screen and (max-width:390px){
+    .ftb2 {
+        /* border: 2px solid red; */
+        width: 370px;
+        height: 386px;
+        margin-left: 10px;
+        margin-top: -90px;
+        /* background-color: green; */
+    }
+    .copyright {
+        position: absolute;
+        margin-top: 1060px;
+        margin-left: 1px;
+        font-size: 18px;
+    }
+    .follow {
+        text-align: center;
+        position: absolute;
+        margin-top: 1099px;
+        margin-left: 125px;
+    }
+    .face {
+        position: absolute;
+        margin-top: 1138px;
+        margin-left: 104px;
+        font-size: 25px;
+    }
+    .insta {
+        position: absolute;
+        margin-top: 1138px;
+        margin-left: 134px;
+        font-size: 25px;
+    }
+    .twit{
+        position: absolute;
+        margin-top: 1138px;
+        margin-left: 175px;
+        font-size: 25px;
+    }
+    .link{
+        position: absolute;
+        margin-top: 1138px;
+        margin-left: 217px;
+        font-size: 25px;
+    }
+}

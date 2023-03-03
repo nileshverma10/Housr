@@ -69,3 +69,23 @@
         height: 316px;
     }
 }
+@media screen and (max-width:390px){
+
+    .test{
+        border: 2px solid rgb(216, 214, 214);
+        width: 100%;
+        height: 400px;
+        background-color: rgb(216, 214, 214);
+    }
+    .setting {
+        /* background-color: red; */
+        margin-left: 49px;
+        margin-right: 44px;
+        margin-top: -85px;
+        height: 316px;
+    }
+    .ttimg{
+        width: 580px;
+        height: 250px;
+    }
+}
