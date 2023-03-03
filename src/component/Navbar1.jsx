@@ -34,9 +34,9 @@ function Navbar1() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <p className="call">Give us call-on</p>
-        <p className="number">9090908778</p>
-        <p className="or">--OR--</p>
+        <h5 className="call">Give us call-on</h5>
+        <h5 className="number">9090908778</h5>
+        <h5 className="or">--OR--</h5>
         <button className="request">REQUEST CALL</button>
       </Container>
     </Navbar>

@@ -34,3 +34,23 @@
         font-size: 11px;
     }
 }
+
+@media screen and (max-width:390px) {
+    .abttext {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-right: 610px;
+        margin-top: 92px;
+        /* background-color: blue; */
+    }
+    .abtbox1 {
+        /* border: 2px solid red; */
+        width: 70%;
+        height: 200px;
+        margin-left: 112px;
+        margin-top: -117px;
+        font-size: 9px;
+    }
+}
