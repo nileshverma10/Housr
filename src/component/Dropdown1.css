@@ -18,8 +18,38 @@
   .container1 {
     margin-left: -89px;
 }
+.css-t3ipsp-control{
+  border-radius: 50px !important;
+  width: 400px !important;
+  margin-top: 5px;
+  padding: 7px;
+  justify-content: space-around !important;
+}
 
+@media screen and (max-width: 1536px) {
+   .css-13cymwt-control {
+    border-radius: 50px !important;
+    width: 345px !important;
+    margin-top: 3px;
+    padding: 7px;
+    justify-content: space-around !important;
+    position: relative;
 
+   }
+   
+   .css-b62m3t-container{
+     border-radius: 50px !important;
+     width: 345px !important;
+     margin-left: 0px;
+   }
+   .css-t3ipsp-control{
+    border-radius: 50px !important;
+    width: 345px !important;
+    margin-top: 3px;
+    padding: 7px;
+    justify-content: space-around !important;
+  }
+}
 
 @media screen and  ( max-width: 820px){
     .css-13cymwt-control {
@@ -35,6 +65,11 @@
   }
   .container1{
     margin-left:-120px;
+  }
+  .css-t3ipsp-control{
+    width: 251px !important;
+    height: 20px;
+    margin-top: 5px;
   }
   }
   
@@ -56,9 +91,16 @@
       .container1{
         margin-left:90px;
       }
+      .css-t3ipsp-control{
+        height: 44px !important;
+        /* background-color: green; */
+        width: 118px !important;
+        position: absolute !important;
+        margin-top: 1px !important;
+      }
   }
 
-  @media screen and  ( max-width: 390px){
+  @media screen and  ( max-width: 391px){
     .css-13cymwt-control{
       height: 44px !important;
       /* background-color: green; */
@@ -75,6 +117,13 @@
   }
       .container1{
         margin-left:75px;
+      }
+      .css-t3ipsp-control{
+        height: 44px !important;
+        /* background-color: green; */
+        width: 118px !important;
+        position: absolute !important;
+        margin-top: 1px !important;
       }
     
   }

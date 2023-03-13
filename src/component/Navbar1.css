@@ -52,7 +52,50 @@ gap: 20px;
 @media only screen and  ( max-width: 1536px){
     .logoimg {
         margin-left: -91px;
+    }
+   
+    .call {
+        margin-top: -16px;
+        font-size: 15px;
+        position: absolute;
+        margin-left: 1109px;
+    }
+    .number {
+        /* margin-top: -27px; */
+        color: blue;
+        cursor: pointer;
+        font-size: 12px;
+        margin-left: 370px;
+        /* display: none; */
+        margin-right: 92px;
+    }
+    .or {
+        margin-top: 5px;
+        font-size: 10px;
+        margin-left: 1193px;
+        position: absolute;
+        /* display: none;*/
+    }
     
+    .request {
+        margin-top: -2px;
+        padding: 12px 34px;
+        border-radius: 39px;
+        border: none;
+        background-image: linear-gradient(85deg,red ,blue,cyan);
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        font-size: 12px;
+        position: absolute;
+        margin-left:1223px;
+    }
+    .navbar-toggler{
+     margin-right: 46px;
+     margin-top: 0px;
+    }
+    .items{
+        margin-left: 177px;
     }
 }
 

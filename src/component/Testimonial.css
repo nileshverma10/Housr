@@ -69,7 +69,7 @@
         height: 316px;
     }
 }
-@media screen and (max-width:390px){
+@media screen and (max-width:391px){
 
     .test{
         border: 2px solid rgb(216, 214, 214);

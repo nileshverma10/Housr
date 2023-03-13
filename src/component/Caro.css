@@ -159,8 +159,126 @@
    color: white;
 }
 
-
-@media only screen and  ( max-width: 820px){
+@media only screen and  ( max-width: 1536px){
+    .ccbox1 {
+        margin-left: 79px;
+        margin-right: 85px;
+        margin-top: -85px;
+    }
+    .img1h {
+        height: 459px;
+        width: 443px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .img1 {
+        width: 443px;
+        height: 240px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .phase {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        margin-left: -222px;
+        cursor: pointer;
+        color: grey;
+    }
+    .gurgaon {
+        margin-left: -281px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        color: grey;
+    }
+    .sharing {
+        margin-left: -239px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 21px;
+        cursor: pointer;
+        color: grey;
+    }
+    .rs1 {
+        float: right;
+        margin-right: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        color: grey;
+    }
+    .hr1{
+        margin-top: -6px;
+    }
+    .sharing1 {
+        margin-left: -239px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -8px;
+        cursor: pointer;
+        color: grey;
+    }
+    .rs2 {
+        float: right;
+        margin-right: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        color: grey;
+    }
+    .hr2{
+        margin-top: 13px;
+    }
+    .direction {
+        margin-left: -320px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+    .booknow {
+        float: right;
+        margin-right: 19px;
+        padding: 2px 11px;
+        margin-top: -32px;
+        border-radius: 7px;
+        background-image: linear-gradient(85deg,red ,blue,cyan);
+        color: white;
+        border: none;
+    }
+    .booktext{
+        margin-top: 3px;
+    }
+    .location{
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .dire{
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .hand{
+        margin-right: 8px;
+        cursor: pointer;
+        
+    }
+    .share {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        float: right;
+        margin-top: -39px;
+        margin-right: 21px;
+        cursor: pointer;
+        color: grey;
+    }
+    .sharearrow{
+        margin-right: 5px;
+        cursor: pointer;
+        color: grey;
+    }
+}
+  @media only screen and  ( max-width: 820px){
     .ccbox1 {
         margin-left: 66px;
         margin-right: 85px;
@@ -412,7 +530,7 @@
    
 }
 
-@media only screen and  ( max-width: 390px){
+@media only screen and  ( max-width: 391px){
     .ccbox1 {
         margin-left: 18px;
         margin-right: 1px;

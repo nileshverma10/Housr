@@ -2,7 +2,6 @@
   "name": "housr",
   "version": "0.1.0",
   "private": true,
-
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -28,6 +27,7 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.6",
     "useref": "^1.4.4",
+    "vercel": "^28.16.15",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
